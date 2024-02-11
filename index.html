@@ -1,14 +1,58 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-		<meta charset="utf-8">
-		<title>Md. Redwan Ahmed</title>
-		<link rel="stylesheet" href="css/style.css">
-	</head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>User Data Form</title>
+  <!-- Step 2: Add the stylesheet -->
+  <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
+</head>
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+<body>
+  <h2>User Data Form</h2>
+  <!-- Step 3: Use the form tag with Pageclip integration -->
+  <form action="https://send.pageclip.co/jk6foinZ9VZ9StEAuUBqI0ONZM7KDuRG/TestForm" class="pageclip-form" method="post">
+    <!-- Full Name -->
+    <label for="fullname">Full Name:</label><br>
+    <input type="text" id="fullname" name="fullname" required><br>
 
-	<body>
-		<centre> <h1>The webpage is under development</h1> </centre>
-		<centre> <h2>Thank you for your patience</h2> </centre>
-		<centre> <h3>For any query, please contact: <a href="mailto:redwanse@outlook.com"> </a> </h3> </centre>
-	</body>
+    <!-- Department Dropdown -->
+    <label for="department">Department:</label><br>
+    <select id="department" name="department" required>
+      <option value="English">English</option>
+      <option value="Bangla">Bangla</option>
+      <option value="Math">Math</option>
+    </select><br>
+
+    <!-- Email -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br>
+
+    <!-- Phone Number -->
+    <label for="phone">Phone Number (with country code):</label><br>
+    <input type="tel" id="phone" name="phone" required><br>
+
+    <!-- Date of Birth -->
+    <label for="dob">Date of Birth:</label><br>
+    <input type="date" id="dob" name="dob" required><br>
+
+    <!-- Blood Group Dropdown -->
+    <label for="bloodgroup">Blood Group:</label><br>
+    <select id="bloodgroup" name="bloodgroup" required>
+      <option value="A+">A+</option>
+      <option value="A-">A-</option>
+      <option value="B+">B+</option>
+      <option value="B-">B-</option>
+      <option value="AB+">AB+</option>
+      <option value="AB-">AB-</option>
+      <option value="O+">O+</option>
+      <option value="O-">O-</option>
+    </select><br>
+
+    <!-- Submit Button -->
+    <button type="submit" class="pageclip-form__submit">
+      <span>Send</span>
+    </button>
+  </form>
+</body>
 </html>
